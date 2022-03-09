@@ -1,0 +1,55 @@
+
+
+.logoFont{
+    font-family: 'Tangerine';
+}
+
+
+//································· TitleLine
+.general__titleLineContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.general__titleLineHr {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.general__titleLineHr hr{
+    width: 100%;
+}
+
+.general__titleLineWrap {
+    width: auto;
+    height: auto;
+    float: left;
+    background: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.general__titleLineWrap p {
+    font-size: 18px;
+    font-family: Montserrat ,"Helvetica Neue",Helvetica,Arial;
+    color: $secundario;
+}
+
+//································· Fin TitleLine
+
+
+//·································CARRUSEL
+.general__carousel{
+    height:100%;
+}
+
+.general__carousel-inner{
+    height:100%;
+    display: flex;
+}
+
+// ·································FIN CARRUSEL

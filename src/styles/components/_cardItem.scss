@@ -1,0 +1,90 @@
+
+.cardItem__container{
+    width: 430px;
+    height: 200px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+
+}
+
+.cardItem__imageContainer{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/el33-94306.appspot.com/o/banner2.jpeg?alt=media&token=762ebc94-fc34-452b-a2d3-1a937ba0351d');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardItem__tag {
+    width: 90px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $tag;
+
+    border-top-left-radius: 10px;
+}
+
+.cardItem__tag p {
+    font-family: Montserrat ,"Helvetica Neue",Helvetica,Arial;
+    color: #fff;
+    font-size: 15px;
+}
+
+.cardItem__dataContainer{
+    position: relative;
+}
+
+.cardItem__tagDiscount{
+    position: absolute;
+    top: -18px;
+    right: -10px;
+
+    border-radius: 50%;
+    background-color: $red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    font-family: Montserrat ,"Helvetica Neue",Helvetica,Arial;
+    font-size: 15px;
+    color: #fff;
+}
+
+.cardItem__tituloDescWrap{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cardItem__tituloDescWrap h5,p{
+    font-family: Montserrat ,"Helvetica Neue",Helvetica,Arial;
+    color: $principal;
+}
+.cardItem__tituloDescWrap p{
+    font-size: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-align: justify;
+}
+
+.cardItem__middleWrap{
+    background-color: red;
+}
+
+.cardItem__bottomWrap{
+    background-color: yellow;
+}
